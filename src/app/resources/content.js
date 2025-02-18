@@ -110,7 +110,7 @@ const about = {
     institutions: [
       {
         name: "MiT BWSIX",
-        description: <>Studied ASICs and chip design.</>,
+        description: <>Studied ASICs and semiconducter chip design.</>,
       },
     ],
   },
@@ -119,35 +119,24 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Java",
+        description: <>Deep understanding of the languages core features, able to build anything.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "C/C++",
+        description: <>Low level programming with embedded systems, including AVR, ARM, MVR, and x86.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+        ],
+      },
+      {
+        title: "Altium EDA",
+        description: <>Experienced with EDA tools for circuit design.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
         ],
       },
     ],
