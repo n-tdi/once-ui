@@ -1,0 +1,37 @@
+---
+title: "A Keyboard.. Cube?!"
+publishedAt: "2025-01-05"
+# image: "/images/gallery/img-02.jpg"
+summary: "Blanks"
+tag: "Consumer Electronics"
+---
+
+## The Journey to the Keyboard Cube MK1  
+
+Turning an idea into a tangible product is always a challenge, especially when working within tight space constraints. The **Keyboard Cube MK1** wasn't just another keyboard project—it was a deep dive into compact hardware design, firmware challenges, and pushing my limits as a maker.  
+
+## From Concept to Reality  
+
+The idea started as a simple curiosity: *What if a keyboard wasn't flat?* I wanted something unique—something that stood out from traditional designs while still being functional. A cube seemed like a natural challenge: six faces, six switches, six LEDs. It was compact, minimalistic, and a complete deviation from anything I had built before.  
+
+At first, I considered using an ESP32-C3 to handle Bluetooth functionality, but space quickly became an issue. The board needed to be as small as possible, and the ESP32, while powerful, didn't fit into my ultra-compact vision. That's when I discovered the **CH552T**, a tiny microcontroller that could handle USB HID functionality while keeping the design minimal.  
+
+## The Challenges of Going Small  
+
+The biggest hurdle was wiring. With such a small footprint, every millimeter mattered. I initially designed PCBs for the project, but due to the tiny scale, I debated whether **hand-wiring** might be more practical. Soldering within such a confined space was tricky, but I managed to make it work.  
+
+Another challenge was power. Since I was using USB-C for connectivity, I had to carefully design the power delivery system to ensure stable performance without unnecessary bulk. Each switch also needed an LED, but driving them efficiently without excessive power draw required some clever circuit planning.  
+
+## The Firmware Journey  
+
+With the hardware mostly figured out, the next step was firmware. I wanted the Keyboard Cube to function as a plug-and-play USB device, so I turned to **FAK firmware by Semickolon**, which provided an efficient base to work from. Flashing the firmware onto the CH552T was another learning curve, but once I got it running, the Keyboard Cube truly came to life.  
+
+Mapping each switch to a functional keypress was straightforward, but fine-tuning the layout and ensuring a smooth experience took some iteration. Testing it with different keycaps and switches was also fun—hot-swappable sockets made it easy to experiment.  
+
+## The Final Product  
+
+After months of designing, soldering, programming, and testing, the **Keyboard Cube MK1** was finally ready. It's a **fully functional six-key mechanical keyboard** packed into a cube, with **RGB lighting, hot-swappable switches, and a unique form factor** that makes it both a conversation piece and a usable device.  
+
+For those who love mechanical keyboards, compact designs, or just something different, the Keyboard Cube MK1 is now available for pre-order. It's been a journey of trial and error, but the result is something I'm truly proud of.  
+
+Check it out [here](https://ntdi.bigcartel.com/product/keyboard-cube-mk1).

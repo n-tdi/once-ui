@@ -9,7 +9,7 @@ const person = {
   role: "Computer Engineer",
   avatar: "/images/avatar.jpg",
   location: "America/New_York", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "French"], // optional: Leave the array empty if you don't want to display languages
+  languages: ["English", "Français"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -123,13 +123,13 @@ const about = {
     skills: [
       {
         title: "Java",
-        description: <>Deep understanding of the languages core features, able to build anything.</>,
+        description: <>Deep understanding of the language's core features. Comfortable with maintaing and expanding enterprise systems.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
         ],
       },
       {
-        title: "C/C++",
+        title: "C/C++ & Rust",
         description: <>Low level programming with embedded systems, including AVR, ARM, MVR, and x86.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
@@ -148,14 +148,14 @@ const about = {
 
 const blog = {
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "What am I doing?!",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
 };
 
 const work = {
-  label: "Work",
+  label: "Projects",
   title: "My projects",
   description: `Design and dev projects by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
@@ -215,11 +215,6 @@ const gallery = {
     // Somethign Rotton
     {
       src: "/images/gallery/img-1.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-2.jpg",
       alt: "image",
       orientation: "horizontal",
     },
