@@ -238,6 +238,21 @@ const gallery = {
       alt: "image",
       orientation: "horizontal",
     },
+    {
+      src: "/images/gallery/peter-img-1.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/peter-img-2.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/peter-img-3.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
   ],
 };
 
