@@ -268,7 +268,7 @@ const gallery = {
     {
       src: "/images/gallery/bab-img-3.jpg",
       alt: "image",
-      orientation: "horizontal",
+      orientation: "vertical",
     },
     // The Witches
     {
