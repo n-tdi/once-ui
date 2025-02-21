@@ -238,6 +238,7 @@ const gallery = {
       alt: "image",
       orientation: "horizontal",
     },
+    // Peter and the Star Catcher
     {
       src: "/images/gallery/peter-img-1.jpg",
       alt: "image",
@@ -250,6 +251,33 @@ const gallery = {
     },
     {
       src: "/images/gallery/peter-img-3.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    // Beauty and the Beast
+    {
+      src: "/images/gallery/bab-img-1.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/bab-img-2.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/bab-img-3.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    // The Witches
+    {
+      src: "/images/gallery/tw-img-1.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/tw-img-2.jpg",
       alt: "image",
       orientation: "horizontal",
     },
