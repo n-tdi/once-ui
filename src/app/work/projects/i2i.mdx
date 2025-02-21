@@ -1,0 +1,58 @@
+---
+title: "i-i, Facial Recognition for the Visually Impaired"
+publishedAt: "2025-01-08"
+summary: "Wearable AI device that uses facial recognition to assist visually impaired individuals in recognizing people and their names."
+images:
+  - "/images/projects/i2i/i2i.jpg"
+team:
+  - name: "Nikolai Souza"
+    role: "Software Engineer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/nikolai-souza-a45669288/"
+  - name: "Charlie Burket"
+    avatar: "/images/projects/i2i/charlie.jpg"
+    role: "Software Engineer"
+  - name: "Mckinlee DePaola"
+    avatar: "/images/projects/i2i/Mckinlee.jpg"
+    role: "Marketing Specialist"
+---
+
+## Overview
+
+The i2i project, developed as part of the "Problem Solving Through Design 2" course, focuses on creating an innovative system that integrates facial recognition and speech processing to identify individuals and respond to voice commands. This system is designed to enhance user interaction by combining computer vision and natural language processing techniques.
+
+## Key Features
+
+- **Facial Recognition**: Utilizes the `FaceStuff.py` module to capture images and identify individuals. The system can detect faces in real-time and match them against a pre-existing database to recognize known individuals.
+
+- **Speech Recognition and Command Processing**: Incorporates the `speech_naming.py` script to process voice inputs. By leveraging the Vosk speech recognition toolkit, the system can transcribe speech and execute corresponding commands, enabling hands-free operation.
+
+- **Bluetooth Low Energy (BLE) Integration**: Includes `bleClient2.py` and `blescan.py` scripts to scan for and connect to BLE devices. This feature allows the system to interact with nearby IoT devices, expanding its functionality and application scope.
+
+- **Server Communication**: Employs `server.py` and `internetserver.py` to handle local and internet-based server communications. This setup facilitates data exchange between the device and remote servers, ensuring seamless integration and data synchronization.
+
+- **Hardware Interaction**: Utilizes `gpio_button.py` for interfacing with hardware components like GPIO buttons, enabling physical interactions and controls within the system.
+
+## Technologies Used
+
+- **Python**: Serves as the primary programming language, offering versatility and extensive library support for both facial and speech recognition tasks.
+
+- **OpenCV**: Employed for image and video processing, particularly in facial detection and recognition functionalities.
+
+- **Vosk**: A speech recognition toolkit used for transcribing and processing voice commands, facilitating natural language interactions.
+
+- **Bluetooth Low Energy (BLE)**: Implemented for wireless communication with nearby devices, enhancing the system's connectivity and control capabilities.
+
+- **Flask**: A micro web framework used in `internetserver.py` to set up server communications, enabling remote interactions and data management.
+
+## Challenges and Learnings
+
+One significant challenge encountered during development was ensuring accurate and efficient real-time facial recognition and speech processing on resource-constrained hardware. To address this, the team optimized algorithms and leveraged lightweight models to balance performance with computational limitations. Additionally, integrating multiple technologies such as BLE, GPIO interfacing, and server communications required careful coordination to ensure seamless interoperability. This project provided valuable insights into the complexities of multimodal system integration and real-time processing.
+
+## Outcome
+
+The i2i project successfully demonstrates a cohesive system that merges facial recognition and speech processing to create an interactive user experience. The integration of BLE and hardware interfacing extends its applicability to various IoT scenarios, showcasing its potential for smart environments and assistive technologies. This project lays the groundwork for future enhancements, including the incorporation of more advanced AI models and expanded device compatibility.
+
+---
+
+For more detailed information and access to the project's source code, please visit the [i2i GitHub repository](https://github.com/n-tdi/i2i). 
