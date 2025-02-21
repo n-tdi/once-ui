@@ -1,4 +1,5 @@
-const baseURL = "ntdi.world";
+// const baseURL = "ntdi.world";
+const baseURL = "localhost:3000";
 
 const routes = {
   "/": true,

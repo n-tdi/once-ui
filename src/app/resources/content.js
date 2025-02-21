@@ -61,14 +61,14 @@ const about = {
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: true,
-    subItems: false,
+    subItems: true,
   },
   avatar: {
     display: true,
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/nikolai-souza-ntdiworld",
   },
   intro: {
     display: true,
@@ -91,12 +91,15 @@ const about = {
         company: "P/E Investments",
         timeframe: "Summer of 2021",
         role: "Software Engineer Intern",
-        achievements: [
+        achievements: [ 
           <>
-            Built an application from the ground up for managing the connections between rows in of multiple databases.
+            Developed and maintained backend APIs using Spring Boot and Java.
           </>,
           <>
-            Gateway into professional experience.
+            Integrated and created CRM solutions to improve client management.
+          </>,
+          <>
+            Collaborated with cross-functional teams to enhance system scalability and performance.
           </>,
         ],
         images: [
@@ -165,68 +168,68 @@ const gallery = {
   description: `A photo collection by ${person.name}`,
   // Images from https://pexels.com
   images: [
+    // Coffee House 2025
     {
-      src: "/images/gallery/img-01.jpg",
+      src: "/images/gallery/img-15.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    // Puffs
+    {
+      src: "/images/gallery/img-9.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/img-12.jpg",
       alt: "image",
       orientation: "vertical",
     },
+    // Big Fish
     {
-      src: "/images/gallery/img-02.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-03.jpg",
+      src: "/images/gallery/img-4.jpg",
       alt: "image",
       orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-04.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-05.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-06.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-07.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-08.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-09.jpg",
-      alt: "image",
-      orientation: "horizontal",
     },
     {
       src: "/images/gallery/img-10.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/img-8.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    // She Kills Monsters
+    {
+      src: "/images/gallery/img-6.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
       src: "/images/gallery/img-11.jpg",
       alt: "image",
+      orientation: "horizontal",
+    },
+    // Somethign Rotton
+    {
+      src: "/images/gallery/img-1.jpg",
+      alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/img-12.jpg",
+      src: "/images/gallery/img-2.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/img-13.jpg",
+      src: "/images/gallery/img-7.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/img-5.jpg",
       alt: "image",
       orientation: "horizontal",
     },
