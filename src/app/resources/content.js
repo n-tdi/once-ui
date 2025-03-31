@@ -115,6 +115,10 @@ const about = {
         name: "MiT BWSIX",
         description: <>Studied ASICs and semiconducter chip design.</>,
       },
+      {
+        name: "Quantum Computing @ Brown Pre-College",
+        description: <>Introductory courses into Linear Algebra, Quantum Physics, and Quantum Computing using Q#</>,
+      },
     ],
   },
   technical: {
