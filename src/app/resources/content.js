@@ -153,8 +153,28 @@ const about = {
     title: "Accolades",
     awards: [
       {
-        title: "STEAM Award",
+        title: "Upper School Innovation & Design Award",
         description: <>Awarded @ Brimmer and May 2025</>,
+      },
+      {
+        title: "Outstanding Performance in a Leading Role in a Play",
+        description: <>Awarded @ Brimmer and May 2025 Academy Awards</>,
+      },
+      {
+        title: "Outstanding Performance in a Leading Role in a Play",
+        description: <>Awarded @ Brimmer and May 2024 Academy Awards</>,
+      },
+      {
+        title: "1st Place Hackathon Winner",
+        description: <>Awarded @ Hack The Castle, Nobles 2024</>,
+      },
+      {
+        title: "Outstanding Performance in a Supporting Role in a Play",
+        description: <>Awarded @ Brimmer and May 2023 Academy Awards</>,
+      },
+      {
+        title: "Outstanding Performance in a Leading Role in a Musical",
+        description: <>Awarded @ Brimmer and May 2022 Academy Awards</>,
       },
     ],
   },
