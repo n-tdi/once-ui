@@ -62,6 +62,11 @@ export default function About() {
       items: about.studies.institutions.map((institution) => institution.name),
     },
     {
+      title: about.accolades.title,
+      display: about.accolades.display,
+      items: about.accolades.awards.map((award) => award.title),
+    },
+    {
       title: about.technical.title,
       display: about.technical.display,
       items: about.technical.skills.map((skill) => skill.title),
@@ -291,6 +296,26 @@ export default function About() {
             </>
           )}
 
+          {about.accolades.display && (
+            <>
+              <Heading as="h2" id={about.accolades.title} variant="display-strong-s" marginBottom="m" >
+                {about.accolades.title}
+              </Heading>
+              <Column fillWidth gap="l" marginBottom="40">
+                {about.accolades.awards.map((award, index) => (
+                  <Column key={`${award.title}-${index}`} fillWidth gap="4">
+                    <Text id={award.title} variant="heading-strong-l">
+                      {award.title}
+                    </Text>
+                    <Text variant="heading-default-xs" onBackground="neutral-weak">
+                      {award.description}
+                    </Text>
+                  </Column>
+                ))}
+              </Column>
+            </>
+          )}
+
           {about.technical.display && (
             <>
               <Heading
@@ -339,8 +364,11 @@ export default function About() {
               </Column>
             </>
           )}
+
+          
         </Column>
       </Flex>
     </Column>
   );
 }
+

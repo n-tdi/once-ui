@@ -148,6 +148,16 @@ const about = {
       },
     ],
   },
+  accolades: {
+    display: true, // set to false to hide this section
+    title: "Accolades",
+    awards: [
+      {
+        title: "STEAM Award",
+        description: <>Awarded @ Brimmer and May 2025</>,
+      },
+    ],
+  },
 };
 
 const blog = {
