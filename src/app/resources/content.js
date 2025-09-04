@@ -75,11 +75,13 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Nikolai is a tech-savvy creator with a passion for blending hardware 
-        and software into seamless, innovative solutions. As a skilled 
-        programmer and aspiring computer engineer, they specialize in embedded 
-        systems, robotics, and custom electronics, transforming complex technical 
-        challenges into intuitive, functional designs.
+        Nikolai Souza is an engineer fueled by curiosity and impact. 
+        He approaches every project with a relentless drive to answer the “So what?”—digging 
+        past the surface to uncover why the work matters and who it benefits. 
+        For him, engineering is not just problem-solving, but meaning-making: turning circuits, 
+        code, and design into purposeful solutions that resonate beyond the build. 
+        His passion lies in bridging technical innovation with real-world value, ensuring 
+        every project tells a story of why it matters.
       </>
     ),
   },
@@ -92,6 +94,9 @@ const about = {
         timeframe: "Summer of 2021",
         role: "Software Engineer Intern",
         achievements: [ 
+          <>
+            Worked with software development team members to integrate external databases into a central system that can be queried by the marketing team.
+          </>,
           <>
             Developed and maintained backend APIs using Spring Boot and Java.
           </>,
@@ -112,12 +117,16 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "MiT BWSIX",
-        description: <>Studied ASICs and semiconducter chip design.</>,
+        name: "bASICs @ MiT BWSI",
+        description: <>Studied ASICs and semiconductor chip design. Created a wearable histamine sensor that detects allergic reactions and injects epinephrine for anaphylactic shock.</>,
       },
       {
         name: "Quantum Computing @ Brown Pre-College",
-        description: <>Introductory courses into Linear Algebra, Quantum Physics, and Quantum Computing using Q#</>,
+        description: <>Introductory courses into Linear Algebra, Quantum Physics, and Quantum Computing using Q#. Created a game to teach quantum gates through the classic game of Pong.</>,
+      },
+      {
+        name: "Introduction to A.I. @ ID-Tech Standford",
+        description: <>Learned about artificial intelligence concepts and applications. Created a sentiment analysis tool using natural language processing techniques to moderate online discussions.</>,
       },
     ],
   },
@@ -157,16 +166,16 @@ const about = {
         description: <>Awarded @ Brimmer and May 2025</>,
       },
       {
+        title: "1st Place Hackathon Winner",
+        description: <>Awarded @ Nobles 2024 Hack The Castle</>,
+      },
+      {
         title: "Outstanding Performance in a Leading Role in a Play",
         description: <>Awarded @ Brimmer and May 2025 Academy Awards</>,
       },
       {
         title: "Outstanding Performance in a Leading Role in a Play",
         description: <>Awarded @ Brimmer and May 2024 Academy Awards</>,
-      },
-      {
-        title: "1st Place Hackathon Winner",
-        description: <>Awarded @ Hack The Castle, Nobles 2024</>,
       },
       {
         title: "Outstanding Performance in a Supporting Role in a Play",
