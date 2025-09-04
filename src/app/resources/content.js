@@ -202,12 +202,52 @@ const gallery = {
   description: `A photo collection by ${person.name}`,
   // Images from https://pexels.com
   images: [
-    // Coffee House 2025
+    // euc 2025
     {
-      src: "/images/gallery/img-15.jpg",
+      src: "/images/gallery/euc-2.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/euc-3.jpg",
       alt: "image",
       orientation: "horizontal",
     },
+    {
+      src: "/images/gallery/euc-4.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    // asics 2025
+    {
+      src: "/images/gallery/asics-1.jpeg",
+      alt: "image",
+      orientation: "horizontal",
+    }, 
+    {
+      src: "/images/gallery/asics-2.jpeg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    // hadestown 2025
+    {
+      src: "/images/gallery/hades-1.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/gallery/hades-2.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    
+    // Coffee House 2025
+    {
+      src: "/images/gallery/ch-2.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    
     // Puffs
     {
       src: "/images/gallery/img-9.jpg",
@@ -240,6 +280,7 @@ const gallery = {
       alt: "image",
       orientation: "vertical",
     },
+    
     // She Kills Monsters
     {
       src: "/images/gallery/img-6.jpg",
@@ -315,6 +356,7 @@ const gallery = {
       alt: "image",
       orientation: "horizontal",
     },
+    
   ],
 };
 
