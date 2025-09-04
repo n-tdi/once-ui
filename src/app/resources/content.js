@@ -238,6 +238,7 @@ const gallery = {
       alt: "image",
       orientation: "horizontal",
     },
+    
     // hadestown 2025
     {
       src: "/images/gallery/hades-1.jpg",
@@ -273,6 +274,7 @@ const gallery = {
       alt: "image",
       orientation: "vertical",
     },
+    
     // Big Fish
     {
       src: "/images/gallery/img-4.jpg",
